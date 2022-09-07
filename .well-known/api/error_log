@@ -1,0 +1,42 @@
+[17-Jun-2022 07:40:07 UTC] PHP Notice:  Undefined index: jabatan in /home2/cybertec/public_html/api/login.php on line 14
+[17-Jun-2022 07:41:21 UTC] PHP Notice:  Undefined index: jabatan in /home2/cybertec/public_html/api/login.php on line 14
+[27-Jun-2022 07:04:34 UTC] PHP Notice:  Undefined index: id_g in /home2/cybertec/public_html/api/insert_gereja.php on line 4
+[27-Jun-2022 07:04:34 UTC] PHP Notice:  Undefined index: nama_gereja in /home2/cybertec/public_html/api/insert_gereja.php on line 5
+[27-Jun-2022 07:04:34 UTC] PHP Notice:  Undefined index: alamat_lengkap in /home2/cybertec/public_html/api/insert_gereja.php on line 6
+[27-Jun-2022 07:04:34 UTC] PHP Notice:  Undefined index: kota in /home2/cybertec/public_html/api/insert_gereja.php on line 7
+[01-Jul-2022 01:41:54 UTC] PHP Warning:  Undefined array key "jabatan" in /home2/cybertec/public_html/api/select.php on line 12
+[01-Jul-2022 01:41:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'ricky' for key 'PRIMARY' in /home2/cybertec/public_html/api/insert.php:9
+Stack trace:
+#0 /home2/cybertec/public_html/api/insert.php(9): mysqli_query()
+#1 {main}
+  thrown in /home2/cybertec/public_html/api/insert.php on line 9
+[01-Jul-2022 01:41:58 UTC] PHP Warning:  Undefined array key "jabatan" in /home2/cybertec/public_html/api/select.php on line 12
+[01-Jul-2022 01:42:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'ricky' for key 'PRIMARY' in /home2/cybertec/public_html/api/insert.php:9
+Stack trace:
+#0 /home2/cybertec/public_html/api/insert.php(9): mysqli_query()
+#1 {main}
+  thrown in /home2/cybertec/public_html/api/insert.php on line 9
+[01-Jul-2022 01:51:36 UTC] PHP Warning:  Undefined array key "jabatan" in /home2/cybertec/public_html/api/select.php on line 12
+[01-Jul-2022 01:54:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'ricky' for key 'PRIMARY' in /home2/cybertec/public_html/api/insert.php:9
+Stack trace:
+#0 /home2/cybertec/public_html/api/insert.php(9): mysqli_query()
+#1 {main}
+  thrown in /home2/cybertec/public_html/api/insert.php on line 9
+[01-Jul-2022 01:54:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'ricky' for key 'PRIMARY' in /home2/cybertec/public_html/api/insert.php:9
+Stack trace:
+#0 /home2/cybertec/public_html/api/insert.php(9): mysqli_query()
+#1 {main}
+  thrown in /home2/cybertec/public_html/api/insert.php on line 9
+[01-Jul-2022 02:28:48 UTC] PHP Warning:  Undefined array key "jabatan" in /home2/cybertec/public_html/api/select.php on line 12
+[01-Jul-2022 02:28:54 UTC] PHP Warning:  Undefined array key "jabatan" in /home2/cybertec/public_html/api/update.php on line 6
+[01-Jul-2022 02:28:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'jabatan' in 'field list' in /home2/cybertec/public_html/api/update.php:10
+Stack trace:
+#0 /home2/cybertec/public_html/api/update.php(10): mysqli_query()
+#1 {main}
+  thrown in /home2/cybertec/public_html/api/update.php on line 10
+[01-Jul-2022 02:28:58 UTC] PHP Warning:  Undefined array key "jabatan" in /home2/cybertec/public_html/api/update.php on line 6
+[01-Jul-2022 02:28:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'jabatan' in 'field list' in /home2/cybertec/public_html/api/update.php:10
+Stack trace:
+#0 /home2/cybertec/public_html/api/update.php(10): mysqli_query()
+#1 {main}
+  thrown in /home2/cybertec/public_html/api/update.php on line 10
